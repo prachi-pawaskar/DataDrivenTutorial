@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" >
+    <test name="runClass">
+        <parameter name="paramUsername" value="username"/>
+        <parameter name="paramPassword" value="password"></parameter>
+        <parameter name="wrongUsername" value="wrong_username"/>
+        <parameter name="wrongPassword" value="wrong_password"></parameter>
+        <classes>
+            <class name="pawaskar.prachi.DataDrivenTutorial.TestWithTestngParamters_HardCode"></class>
+        </classes>
+    </test>
+</suite>
